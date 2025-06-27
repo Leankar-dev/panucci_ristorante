@@ -4,6 +4,7 @@ import 'package:panucci_ristorante/core/widgets/main_drawer.dart';
 import 'package:panucci_ristorante/screens/drink_menu_screen.dart';
 import 'package:panucci_ristorante/screens/food_menu_screen.dart';
 import 'package:panucci_ristorante/screens/highlitghts_screen.dart';
+import 'package:panucci_ristorante/screens/order_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -39,7 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
             context,
             MaterialPageRoute(
               builder: (context) {
-                return const HomeScreen();
+                return const OrderScreen();
               },
             ),
           );
